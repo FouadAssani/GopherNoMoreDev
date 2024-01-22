@@ -1,0 +1,5 @@
+package: gophernomoredev_api_client
+output: restapi/openapi/openapiclient/openapiclient.gen.go
+generate:
+  client: true
+  models: true

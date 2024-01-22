@@ -1,0 +1,25 @@
+#
+# AUTO-GENERATED FILE, DO NOT MODIFY!
+#
+
+name: '{{{pubName}}}'
+version: '{{{pubVersion}}}'
+description: '{{{pubDescription}}}'
+homepage: '{{{pubHomepage}}}'
+{{#pubRepository}}
+repository: {{.}}
+{{/pubRepository}}
+{{#pubPublishTo}}
+publish_to: {{.}}
+{{/pubPublishTo}}
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+dependencies:
+  http: '^1.0.0'
+  intl: '^0.18.1'
+  meta: '^1.9.1'
+dev_dependencies:
+  test: ^1.24.4
+{{#json_serializable}}
+  build_runner: '^2.4.6'
+  json_serializable: '^6.7.1'{{/json_serializable}}
