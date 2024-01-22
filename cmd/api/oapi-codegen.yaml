@@ -1,0 +1,5 @@
+package: gophernomoredev_api
+output: restapi/openapi/openapi.gen.go
+generate:
+  gin-server: true
+  models: true
